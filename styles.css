@@ -1,0 +1,40 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px black solid;
+    margin: 10px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+
+.container {
+    font-size: 0;
+}
+
+.float-box {
+    float: left;
+}
+
+.text {
+    clear: left;
+}
+
+#overflow {
+    height: 300px;
+    overflow: scroll;
+}
+
+a:link {
+    color: rgb(216, 216, 216);
+    background-color: black;
+}
+
+a:visited {
+    background-color: green;
+    color:black
+}
